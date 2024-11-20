@@ -1,0 +1,32 @@
+QLabel {
+    background-color: red;
+}
+
+QLabel#title {
+    font-size: 20px;
+}
+
+QPlainTextEdit {
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    background-attachment: scroll;
+    subcontrol-origin: content;
+    subcontrol-origin: content;
+    /*
+    selection-color: rgba(0, 0, 0, 1);
+    selection-background-color: rgba(0, 0, 0, 0);*/
+
+}
+
+QPlainTextEdit:edit-focus{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+QPlainTextEdit::text{
+    background-color: rgba(255, 255, 255, 0.3);
+}
